@@ -1,8 +1,8 @@
 [![Linux and macOS Build Status](https://travis-ci.org/feliixx/mgodatagen.svg?branch=master)](https://travis-ci.org/feliixx/mgodatagen)
 [![Windows Build Status](https://ci.appveyor.com/api/projects/status/ll70glgrjib8x8k5/branch/master?svg=true)](https://ci.appveyor.com/project/feliixx/mgodatagen)
-[![Go Report Card](https://goreportcard.com/badge/github.com/feliixx/mgodatagen)](https://goreportcard.com/report/github.com/feliixx/mgodatagen)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Joaquin6/mgodatagen)](https://goreportcard.com/report/github.com/Joaquin6/mgodatagen)
 [![codecov](https://codecov.io/gh/feliixx/mgodatagen/branch/master/graph/badge.svg)](https://codecov.io/gh/feliixx/mgodatagen)
-[![GoDoc](https://godoc.org/github.com/feliixx/mgodatagen?status.svg)](http://godoc.org/github.com/feliixx/mgodatagen)
+[![GoDoc](https://godoc.org/github.com/Joaquin6/mgodatagen?status.svg)](http://godoc.org/github.com/Joaquin6/mgodatagen)
 
 # mgodatagen
 
@@ -24,7 +24,7 @@ Try it online: [**mongoplayground**](https://mongoplayground.net/)
 
 ## installation
 
-Download the binary from the [release page](https://github.com/feliixx/mgodatagen/releases)
+Download the binary from the [release page](https://github.com/Joaquin6/mgodatagen/releases)
 
 or
 
@@ -33,7 +33,7 @@ Build from source:
 First, make sure that go is installed on your machine (see [install go](https://golang.org/doc/install) for details ). Then, use `go get`:
 
 ```
-go get -u "github.com/feliixx/mgodatagen"
+go get -u "github.com/Joaquin6/mgodatagen"
 ```
 
 ## Options
@@ -502,7 +502,7 @@ generator in other collections:
 ### FromArray
 
 Pick an object from an array as value for the field. Currently, objects in the
-array have to be of the same type. By default, items are picked from the array 
+array have to be of the same type. By default, items are picked from the array
 in the order where they appear.
 
 ```JSON5
@@ -513,8 +513,8 @@ in the order where they appear.
       <object>,               // any type, including object and array.
       <object>
       ...
-    ], 
-    "randomOrder": <bool>     // optional. If set to true, objects will be picked 
+    ],
+    "randomOrder": <bool>     // optional. If set to true, objects will be picked
                               // from the array in random order.
 }
 ```
@@ -542,7 +542,7 @@ The query can't be empty or null.
   "type": "countAggregator", // required
   "database": <string>,      // required, db to use to perform aggregation
   "collection": <string>,    // required, collection to use to perform aggregation
-  "query": <object>          // required, query that selects which documents to count in the 
+  "query": <object>          // required, query that selects which documents to count in the
                              // collection
 }
 ```

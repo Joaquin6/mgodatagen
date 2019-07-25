@@ -22,7 +22,7 @@ import (
 	"github.com/gosuri/uiprogress/util/strutil"
 	"github.com/olekukonko/tablewriter"
 
-	"github.com/feliixx/mgodatagen/datagen/generators"
+	"github.com/Joaquin6/mgodatagen/datagen/generators"
 )
 
 type result struct {
@@ -485,7 +485,7 @@ func createEmptyCfgFile(filename string) error {
 
         }
     }
-]		
+]
 `)
 	_, err = f.Write(templateByte[1:])
 	return err

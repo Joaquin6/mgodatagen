@@ -112,7 +112,7 @@ type Config struct {
 	Query bson.M `json:"query"`
 }
 
-// available generator types, see https://github.com/feliixx/mgodatagen/blob/master/README.md#generator-types for details
+// available generator types, see https://github.com/Joaquin6/mgodatagen/blob/master/README.md#generator-types for details
 const (
 	TypeString        = "string"
 	TypeInt           = "int"

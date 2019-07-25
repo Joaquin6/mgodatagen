@@ -6,7 +6,7 @@ import (
 
 	"github.com/jessevdk/go-flags"
 
-	"github.com/feliixx/mgodatagen/datagen"
+	"github.com/Joaquin6/mgodatagen/datagen"
 )
 
 const version = "0.7.5"

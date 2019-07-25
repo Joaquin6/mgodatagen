@@ -15,7 +15,7 @@ import (
 	"github.com/globalsign/mgo"
 	"github.com/globalsign/mgo/bson"
 
-	"github.com/feliixx/mgodatagen/datagen"
+	"github.com/Joaquin6/mgodatagen/datagen"
 )
 
 var (

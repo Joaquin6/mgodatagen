@@ -8,7 +8,7 @@ import (
 	"github.com/globalsign/mgo"
 	"github.com/globalsign/mgo/bson"
 
-	"github.com/feliixx/mgodatagen/datagen/generators"
+	"github.com/Joaquin6/mgodatagen/datagen/generators"
 )
 
 func TestNewAggregatorCond(t *testing.T) {
